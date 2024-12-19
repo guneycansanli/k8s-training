@@ -9,7 +9,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      name: posgres-pod
+      name: postgres-pod  # Corrected typo here
       app: demo-voting-app
 
   template:
